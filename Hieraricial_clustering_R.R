@@ -34,5 +34,5 @@ summ_mem_1<- data.mem.1 %>% group_by(cluster) %>% summarise(total=n(), median_RO
                                                median_sales=median(Sales))
                                                 
 #conclusion: We clustered the data into 2 groups. After that, we compared the median of the different-
-#clustered group. 
+#clustered group. We can cluster using different method.
 
